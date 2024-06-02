@@ -1,0 +1,269 @@
+body{
+  overflow-x: hidden;
+}
+
+/* navigation bar styling*/
+#title{
+
+  background-color: orange;
+  display: flex;
+}
+
+#name{
+ font-size: 30px;
+ font-family: serif;
+ font-weight: bold;
+}
+.nav-item{
+  position: relative;
+  padding: 2px 20px;
+}
+.nav-link{
+  font-weight:bolder;
+  color: white;
+}
+#signbtn{
+  margin: 4px 7px 4px 7px;
+  background: transparent;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+  border: 3px solid black;
+}
+#signbtn:hover{
+  color: rgb(4, 255, 13);
+}
+
+/* company information*/
+
+.heading{
+  text-align:center;
+  background-color: orange;
+  position: absolute;
+  padding-top: 9rem;
+  
+}
+.des{
+  font-family: fantasy;
+  font-size: 45px;
+  color: white;
+  position: relative;
+  bottom: 1rem;
+  left: 3rem;
+}
+.des-two{
+  color: white;
+  font-weight: bold;
+  font-style: italic ;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15px;
+  text-decoration: dashed;
+  position: absolute;
+  left: 3rem;
+  
+}
+
+.headimage{
+  text-align: center;
+  background-color:orange;
+ 
+}
+.pro-image{
+  position: relative;
+  transform: rotate(25deg);
+}
+#finalbtn{
+  background: transparent;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+  border: 3px solid black;
+  position: relative;
+  top: 9.5rem;
+  left: 2.5rem;
+}
+#finalbtn:hover{
+  color: rgb(4, 255, 13);
+}
+
+
+
+
+@media(max-width:600px){
+  .des{
+    bottom: 0rem;
+    left: 0rem;
+    top: -6rem;
+  }
+  .des-two{
+    font-size: 15px;
+    text-decoration: dashed;
+    position:relative;
+    left: 0rem;
+    top: -5rem;
+    
+  }
+  #finalbtn{
+    background: transparent;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    border: 3px solid black;
+    position: relative;
+    top: -5rem;
+    left: 0rem;
+  }
+.pro-image{
+
+  width: 90%;
+  position: relative;
+  right: 0rem;
+  transform: rotate(0deg);
+  text-align: center;
+  top: -1rem;
+}
+.headimage{
+  text-align: center;
+  background-color:orange;
+  position: relative;
+
+}
+
+
+
+}
+
+
+@media(max-width:768px){
+  .des{
+    bottom: 0rem;
+    left: 0rem;
+    top: -6rem;
+  }
+  .des-two{
+    font-size: 15px;
+    text-decoration: dashed;
+    position:relative;
+    left: 0rem;
+    top: -5rem;
+    
+  }
+  #finalbtn{
+    background: transparent;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    border: 3px solid black;
+    position: relative;
+    top: -5rem;
+    left: 0rem;
+  }
+  .pro-image{
+
+    width: 90%;
+    position: relative;
+    right: 0rem;
+    transform: rotate(0deg);
+    text-align: center;
+    top: -1rem;
+  }
+  .card-body{
+    position:relative;
+  }
+}
+@media(min-width:1024px){
+  .des{
+    bottom: 0rem;
+    left: 0rem;
+    top: -6rem;
+  }
+  .des-two{
+    font-size: 15px;
+    text-decoration: dashed;
+    position:relative;
+    left: 0rem;
+    top: -5rem;
+    
+  }
+  #finalbtn{
+    background: transparent;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    border: 3px solid black;
+    position: relative;
+    top: -5rem;
+    left: 0rem;
+  }
+.pro-image{
+
+  width: 90%;
+  position: relative;
+  right: 0rem;
+  transform: rotate(0deg);
+  text-align: center;
+  top: 2rem;
+}
+.headimage{
+  text-align: center;
+  background-color:orange;
+  position: relative;
+
+}
+}
+
+
+/* product buying section*/
+.card-body{
+  position: relative;
+  text-align: center;
+  display: block;
+ 
+}
+.airdope{
+  width: 50%;
+  position: relative;
+}
+.headphone{
+  width: 50%;
+  position: relative;
+}
+.earphone{
+  width: 50%;
+  position: relative;
+}
+.neck{
+  width: 50%;
+  position: relative;
+}
+.theatre{
+  width: 50%;
+  position: relative;
+}
+.blue{
+  width: 50%;
+  position: relative;
+}
+.product-items{
+  position: relative;
+  margin-left: 0rem;
+  margin-right: 0rem;
+  padding-right: 0rem;
+}
+
+
+/*address section*/
+
+.address{
+  text-align: center;
+  position: relative;
+  top: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  bottom: 0rem;
+  background-color: orange;
+}
+.icons{
+  margin: 10px;
+  color: black;
+}
